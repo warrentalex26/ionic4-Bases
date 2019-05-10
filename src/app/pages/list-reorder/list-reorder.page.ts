@@ -24,7 +24,7 @@ export class ListReorderPage implements OnInit {
     this.personajes = evento.detail.complete(this.personajes);
   }
 
-  onClick(){
+  onClick() {
     console.log(this.personajes);
   }
 
